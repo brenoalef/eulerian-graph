@@ -106,7 +106,7 @@ def hierholzer(graph):
 if __name__ == '__main__':
     argv = sys.argv
     if len(argv) != 2:
-        print("Usage: %s <dimacs file path>" % argv[0])
+        print("Usage: %s <graph file path>" % argv[0])
         quit()
     
     graph = read_graph(argv[1])
